@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE 4-puts.c -o cisfun
+gcc $CFILE  -o cisfun
