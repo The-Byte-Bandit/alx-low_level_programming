@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 
+ * Description:
  *'The program prints the number of bytes each data type occupies'
  * Return: Always 0 (Success)
  */
