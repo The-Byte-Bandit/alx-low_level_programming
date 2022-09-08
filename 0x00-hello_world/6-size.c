@@ -1,6 +1,13 @@
 #include<stdio.h>
 
-/* main.c */
+
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program prints the number of bytes each data type occupies '
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 
