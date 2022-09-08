@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-'''beginning of code
+/* main.c */
 int main(void)
 {
 
