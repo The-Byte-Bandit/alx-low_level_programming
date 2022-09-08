@@ -9,10 +9,7 @@
 int main(void)
 {
 
-char x[50] = "Programming is like building a multilingual puzzle";
-
-
-puts(x);
+puts("Programming is like building a multilingual puzzle");
 
 return (0);
 
