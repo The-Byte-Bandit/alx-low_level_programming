@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE = $(gcc 4-puts.c -o cisfun)
+gcc $CFILE 4-puts.c -o cisfun
