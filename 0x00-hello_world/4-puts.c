@@ -1,13 +1,16 @@
 #include <stdio.h>
-int main (){
 
-char x[40] = "Programming is like building a multilingual puzzle";
+/**
+ * main - Entry point
+ * Description:
+ *'The program prints  a sentence'
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 
+puts("\"Programming is like building a multilingual puzzle");
 
-puts(x) ;
-
-
-
-return 0 ;
+return (0);
 
 }
