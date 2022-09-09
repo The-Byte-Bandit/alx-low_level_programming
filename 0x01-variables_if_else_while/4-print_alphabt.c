@@ -7,19 +7,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
+	char low, e, q;
 
-for(char i = 'a'; i<='z'; i ++)
-{
-if(i == e || i == q){
-continue;
-}else (){
-	putchar(i);
-}
-}
-putchar('\n');
+	e = 'e';
+	q = 'q';
 
-return (0);
-}
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+	putchar('\n');
 
+	return (0);
+}
