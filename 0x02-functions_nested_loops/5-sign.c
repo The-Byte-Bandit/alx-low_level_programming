@@ -1,34 +1,31 @@
 #include "holberton.h"
+
 /**
- * main - Entry point
- * Description:
- *'The program prints the sign of a number.'
- * Return: Always 0 (Success)
+ * print_sign - Check Holberton
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
  */
-
-int  print_sign( int n);
-int main(void)
+int print_sign(int n)
 {
-   int us =  6;
-   print_sign(us);
-    return (0);
-}
+	int value;
 
-int  print_sign (int n)
-{
-    if(n > 0)
-    {
+	if (n > 0)
+	{
+		value = 1;
+		_putchar('+');
+	}
+	else if (n == 0)
+	{
+		value = 0;
+		_putchar('0');
+	}
+	else
+	{
+		value = -1;
+		_putchar('-');
+	}
 
-        printf("\n +");
-        return (1);
-    }else if (n == 0)
-    {
-        printf("\n %d", 0);
-        return (0);
-    }  
-    else
-    {
-        printf("\n -");
-        return (-1);
-    }
+	return (value);
 }
