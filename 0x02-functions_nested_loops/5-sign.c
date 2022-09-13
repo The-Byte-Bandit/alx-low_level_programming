@@ -1,6 +1,6 @@
-#include "holberton.h"
-
-/**
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
  * print_sign - Check Holberton
  * @n: An input number
  * Description: Tohis function prints the sign of the number
