@@ -9,11 +9,11 @@
 int print_last_digit(int n)
 /* start of function */
 {
-  int chum = n % 10;
-  
-  if (chum < 0)
-  {
-  chum *= -1 ;
-  }
-  return (chum);
+	int chum = n % 10;
+
+	if (chum < 0)
+	{
+	chum *= -1 ;
+	}
+	return (chum);
 }
