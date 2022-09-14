@@ -18,15 +18,17 @@ void jack_bauer(void)
 		{
 			if(b < 10 && i < 10)
 			{
-				_putchar('0' + i);
+				_putchar('0');
+				_putchar(i);
 				_putchar('\t');
-				_putchar('0' + b);
+				_putchar('0');
+				_putchar(b);
 				_putchar('\n');
 			}
 			else if (b > 9 && i < 10)
 			{
-
-				_putchar('0' + i);
+				_putchar('0');
+				_putchar(i);
 				_putchar('\t');
 				_putchar(b);
 				_putchar('\n');
@@ -35,7 +37,8 @@ void jack_bauer(void)
 			{
 				_putchar(i);
 				_putchar('\t');
-				_putchar('0' + b);
+				_putchar('0');
+				_putchar(b);
 				_putchar('\n');
 			}
 	
