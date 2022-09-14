@@ -8,7 +8,9 @@
 
 int _islower(char alphabet)
 {
-	if(islower(alphabet) != 0)
+	int condition = islower(alphabet);
+	
+	if(condion != 0)
 	{
 	return ("%d",1);
 	}else
