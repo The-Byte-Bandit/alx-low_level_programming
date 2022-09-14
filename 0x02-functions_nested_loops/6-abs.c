@@ -1,20 +1,21 @@
-#include <stdio.h>
-#include <ctype.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _abs - Check description
+ * @n: an integer
+ * Description: It returns the absolute value of n
+ * Return: n.
  */
-
-int _abs(int);
-int main(void)
-{
-
-    return (0);
-}
-
 int _abs(int n)
 {
-    return abs(n);
+	int value = 0;
+	if(n < 0)
+	{
+	value = n*-1;
+	}
+	else
+	{
+	value = n;
+	}
+    return (value);
 }
