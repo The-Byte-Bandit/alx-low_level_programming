@@ -12,7 +12,7 @@ void times_table(void)
 
 	for (i = 0; i < 10; i++ )
 	{
-		for (b = 0; b <1 0; b++)
+		for (b = 0; b <10; b++)
 		{
 			vim1 = b*i;
 			_putchar(' ');
