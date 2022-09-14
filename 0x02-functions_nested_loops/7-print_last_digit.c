@@ -15,5 +15,6 @@ int print_last_digit(int n)
 	{
 	chum *= -1;
 	}
+	_putchar(chum);
 	return (chum);
 }
