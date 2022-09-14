@@ -14,7 +14,13 @@ void times_table(void)
 	{
 		for (b = 0; b <10; b++)
 		{
-			vim1 = b*i;
+		vim1 = b*i;
+			if(vim > 9)
+			{
+			_putchar(' ');
+			_putchar(vim1/10 + '0');
+			_putchar(',');
+			}
 			_putchar(' ');
 			_putchar(vim1+ '0');
 			_putchar(',');
