@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * print_sign - Check Description
  * @n: An input number
  * Description: This function prints the sign of the number
