@@ -12,11 +12,11 @@ void jack_bauer(void)
 	int i;
 	int b;
 
-	for(i = 0; i < 24; i++ )
+	for (i = 0; i < 24; i++)
 	{
-		for(b = 0; b < 60; b++)
+		fo r(b = 0; b < 60; b++)
 		{
-			if(b < 10 && i < 10)
+			i f(b < 10 && i < 10)
 			{
 				_putchar('0');
 				_putchar(i);
@@ -41,7 +41,7 @@ void jack_bauer(void)
 				_putchar(b);
 				_putchar('\n');
 			}
-	
+
 			else
 			{
 				_putchar(i);
