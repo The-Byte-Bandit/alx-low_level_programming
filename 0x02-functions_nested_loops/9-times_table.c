@@ -15,16 +15,27 @@ void times_table(void)
 		for (b = 0; b <10; b++)
 		{
 		vim1 = b*i;
-			if(vim1 > 9)
-			{
-			_putchar(' ');
-			_putchar(vim1/10 + '0');
-			_putchar(',');
-			}
-			_putchar(' ');
-			_putchar(vim1+ '0');
-			_putchar(',');
 
+			if ((vim1 / 10) == 0)
+			{
+				if (i != 0)
+					_putchar(' ');
+				_putchar(vim1 + '0');
+
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((vim1 / 10) + '0');
+				_putchar((vim1 % 10) + '0');
+				if (i == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
