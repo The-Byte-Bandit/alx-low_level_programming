@@ -1,29 +1,18 @@
-#include <stdio.h>
-#include <ctype.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- *  * main - Entry point
- *   * Description:
- *    *'The program prints  all english letters'
- *     * Return: Always 0 (Success)
- *      */
+ * int _islower - Check description
+ * Description: Returns 1 if c is lowercase else eturns 0
+ * Return: Nothing.
+ */
 
-int _islower (char alphabet);
-int main(void)
+int _islower(char alphabet)
 {
-	    char me = 'e';
-	       int us = _islower(me);
-	          printf("\n %d", us);
-		      return (0);
-}
-
-int _islower (char alphabet)
-{
-	    if(islower(alphabet) != 0)
-		        {
-				        return ("wow",0);
-					    }else
-						        {
-								        return ("waw",0);
-									    }
+	if(islower(alphabet) != 0)
+	{
+	return ("%d",1);
+	}else
+	{
+	return ("%d",0);
+	}
 }
