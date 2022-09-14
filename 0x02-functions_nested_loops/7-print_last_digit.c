@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Check description
- * @n: name of variable to be operated on  
+ * @n: name of variable to be operated on
  * Description: It returns the last digit of the given variable
  * Return: Nothing.
  */
@@ -13,7 +13,7 @@ int print_last_digit(int n)
 
 	if (chum < 0)
 	{
-	chum *= -1 ;
+	chum *= -1;
 	}
 	return (chum);
 }
