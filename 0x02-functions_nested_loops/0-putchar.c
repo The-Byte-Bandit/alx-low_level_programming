@@ -3,16 +3,17 @@
 /**
  * print_phrase - Check description
  * Description: It prints _putchar
- * Return: Nothing.
+ * Return: 0.
  */
 int main(void)
+/* start of function */
 {
-	char put[8]  = "_putchar";
+	char put[]  = "_putchar";
 	int i;
 
-	for (i = 0; i<9; i++)
+	for (i = 0; i < 9; i++)
 	{
 	_putchar(put[i]);
 	}
-	return(0);
+	return (0);
 }
