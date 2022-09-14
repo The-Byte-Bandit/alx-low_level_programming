@@ -8,9 +8,9 @@
 int main(void)
 {
 	char put[8]  = "_putchar";
-	int i = 0;
+	int i;
 
-	for (int i; i<9; i++);
+	for (i = 0; i<9; i++);
 	{
 	_putchar(put[i]);
 	}
