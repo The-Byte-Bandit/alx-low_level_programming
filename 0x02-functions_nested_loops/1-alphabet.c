@@ -7,12 +7,15 @@
  */
 int main(void)
 {
-         char put[8]  = "_putchar";
+        print_alphabet();
+        return (0);
+}
 
+void print_alphabet(void)
+{
          for (char ch = 'a'; ch <= 'z'; ch++)
         {
                 putchar(ch);
-        }                                       }
+        }
         putchar('\n');
-        return (0);
 }
