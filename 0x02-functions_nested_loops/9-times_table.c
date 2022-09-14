@@ -22,7 +22,7 @@ void times_table(void)
 					_putchar(' ');
 				_putchar(vim1 + '0');
 
-				if (j == 9)
+				if (i == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
