@@ -8,7 +8,7 @@
 void times_table(void)
 /* start of function */
 {
- 	int vim1,, i, b;
+ 	int vim1, i, b;
 
 	for (i = 0; i < 10; i++ )
 	{
