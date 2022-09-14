@@ -8,30 +8,30 @@
 void times_table(void)
 /* start of function */
 {
- 	int vim1, i, b;
+	int i, j, n;
 
-	for (i = 0; i < 10; i++ )
+	for (i = 0; i <= 9; i++)
 	{
-		for (b = 0; b <10; b++)
+		for (j = 0; j <= 9; j++)
 		{
-		vim1 = b*i;
+			n = i * j;
 
-			if ((vim1 / 10) == 0)
+			if ((n / 10) == 0)
 			{
-				if (i != 0)
+				if (j != 0)
 					_putchar(' ');
-				_putchar(vim1 + '0');
+				_putchar(n + '0');
 
-				if (i == 9)
+				if (j == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
 			}
 			else
 			{
-				_putchar((vim1 / 10) + '0');
-				_putchar((vim1 % 10) + '0');
-				if (i == 9)
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+				if (j == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
