@@ -18,8 +18,7 @@ int _isalpha(int c)
 	lower = 1;
 	break;
 	}
-	else
-	{
+	}
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i == c)
@@ -28,8 +27,6 @@ int _isalpha(int c)
 		break;
 		}
 	}
-	}
 
-}
 return (lower);
 }
