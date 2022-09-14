@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main.h" 
 
 /**
- *  * main - Entry point
- *   * Description:
- *    *'The program prints  a sentence'
- *     * Return: Always 0 (Success)
- *      */
+ * main - Entry point
+ *Description:
+ *'The program prints  a sentence'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char put[8]  = "_putchar";
