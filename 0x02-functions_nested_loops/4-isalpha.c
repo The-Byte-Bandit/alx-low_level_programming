@@ -1,29 +1,33 @@
-#include <stdio.h>
-#include <ctype.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- *  * main - Entry point
- *   * Description:
- *    *'The program prints  all english letters'
- *     * Return: Always 0 (Success)
- *      */
-
-int  _isalpha (char alphabet);
-int main(void)
+ * _isalpha - Check description
+ * @c is the variable to be checked
+ * Description:Returns 1 if c is a letter, lowercase or uppercase else returns 0
+ * Return: 1 or 0.
+int _isalpha(int c);
 {
-	    char me = 'e';
-	       int us =  _isalpha(me);
-	          printf("\n %d", us);
-		      return (0);
-}
+	char i;
+	int lower = 0;
 
-int  _isalpha (char alphabet)
-{
-	    if( isalpha(alphabet) != 0)
-		        {
-				        return ("wow",0);
-					    }else
-						        {
-								        return ("waw",0);
-									    }
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+	if (i == c)
+	{
+	lower = 1;
+	break;
+	}
+	else
+	{
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == c)
+		{
+		lower = 1;
+		break;
+		}
+	}
+	}
+
+return (lower);
 }
