@@ -30,6 +30,6 @@ int _isalpha(int c)
 	}
 	}
 
-return (lower);
 }
+return (lower);
 }
