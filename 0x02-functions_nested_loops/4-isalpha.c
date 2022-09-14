@@ -5,6 +5,7 @@
  * @c is the variable to be checked
  * Description:Returns 1 if c is a letter, lowercase or uppercase else returns 0
  * Return: 1 or 0.
+ */
 int _isalpha(int c);
 {
 	char i;
