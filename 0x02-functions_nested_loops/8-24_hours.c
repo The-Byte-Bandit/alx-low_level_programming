@@ -13,9 +13,9 @@ void jack_bauer(void)
 
 	for (i = 0; i < 24; i++)
 	{
-		fo r(b = 0; b < 60; b++)
+		for(b = 0; b < 60; b++)
 		{
-			i f(b < 10 && i < 10)
+			if(b < 10 && i < 10)
 			{
 				_putchar(g);
 				_putchar(i);
