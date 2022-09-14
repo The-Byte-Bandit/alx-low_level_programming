@@ -5,10 +5,9 @@
  * Description: Returns 1 if c is lowercase else eturns 0
  * Return: Nothing.
  */
-
-int _islower(char alphabet)
+int _islower(int c)
 {
-	int condition = islower(alphabet);
+	int condition = islower(c);
 	
 	if(condion != 0)
 	{
