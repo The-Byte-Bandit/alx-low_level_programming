@@ -16,6 +16,7 @@ void times_table(void)
 		{
 			vim1 = b*i;
 			_putchar(vim1/10 + '0');
+			_putchar(' ,');
 
 		}
 		_putchar('\n');
