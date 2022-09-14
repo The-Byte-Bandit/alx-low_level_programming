@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h" 
 /**
  *  main - Entry point
  *  Description:
@@ -8,12 +7,12 @@
  */
 int main(void)
 {
-	 char put[8]  = "_putchar";
+        char put[8]  = "_putchar";
 
-	 for(char ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}				        }
-	putchar('\n');
-	return (0);
+        for (int i; i<9; i++);
+        {
+                putchar(put[i]);
+        }
+        return(0);
+                                                }
 }
