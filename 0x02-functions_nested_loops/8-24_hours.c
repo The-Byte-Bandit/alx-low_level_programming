@@ -43,7 +43,7 @@ void jack_bauer(void)
 			else
 			{
 				_putchar(i);
-				_putchar('\t);
+				_putchar('\t');
 				_putchar(b);
 				_putchar('\n');
 			}
