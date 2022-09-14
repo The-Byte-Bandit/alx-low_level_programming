@@ -20,21 +20,32 @@ void jack_bauer(void)
 			if(b < 10 && i < 10)
 			{
 				_putchar('0' + i);
+				_putchar('\t);
 				_putchar('0' + b);
 				_putchar('\n');
 			}
 			else if (b > 9 && i < 10)
 			{
-				_putchar("\n 0%d %d", i, b);
+
+				_putchar('0' + i);
+				_putchar('\t);
+				_putchar(b);
+				_putchar('\n');
 			}
 			else if (i > 9 && b < 10)
 			{
-				_putchar("\n %d 0%d", i, b);
+				_putchar(i);
+				_putchar('\t);
+				_putchar('0' + b);
+				_putchar('\n');
 			}
-			
+	
 			else
 			{
-				_putchar("\n %d %d", i, b);
+				_putchar(i);
+				_putchar('\t);
+				_putchar(b);
+				_putchar('\n');
 			}
 			
 		}
