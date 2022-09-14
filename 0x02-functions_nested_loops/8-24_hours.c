@@ -8,8 +8,7 @@
 void jack_bauer(void)
 /* start of function */
 {
-	int vim1 = 0;
-	int vim2 = 0;
+
 	int i;
 	int b;
 
