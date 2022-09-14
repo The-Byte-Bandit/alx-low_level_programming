@@ -7,13 +7,19 @@
  */
 int _islower(int c)
 {
-	int condition = islower(c);
-	
-	if(c > 'Z')
+	char i;
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-	return ("%d",1);
-	}else
+	if (i == c)
 	{
-	return ("%d",0);
+	lower = 1;
+	break;
 	}
+
 }
+
+return (lower);
+}
+
