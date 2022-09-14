@@ -1,10 +1,9 @@
-#include "main.h" 
+#include "main.h"
 
 /**
- * main - Entry point
- *Description:
- *'The program prints  a sentence'
- * Return: Always 0 (Success)
+ * print_phrase - Check description
+ * Description: It prints _putchar
+ * Return: Nothing.
  */
 int main(void)
 {
@@ -12,8 +11,7 @@ int main(void)
 
 	for (int i; i<9; i++);
 	{
-		putchar(put[i]);
+	putchar(put[i]);
 	}
 	return(0);
-					        }
 }
