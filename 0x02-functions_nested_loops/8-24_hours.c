@@ -5,12 +5,11 @@
  * Return: Nothing.
  */
 void jack_bauer(void)
-/* start of function */
 {
 
 	int i;
 	int b;
-	char g = '0'
+	char g = '0';
 
 	for (i = 0; i < 24; i++)
 	{
