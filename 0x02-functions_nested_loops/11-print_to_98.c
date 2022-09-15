@@ -10,7 +10,7 @@ void print_to_98(int n)
 {
 	int v;
 	
-	if(v == 98)
+	if(n == 98)
 	{
 	_putchar(v/10 + '0');
 	_putchar(v%10 + '0');
