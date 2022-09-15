@@ -15,6 +15,7 @@ void print_to_98(int n)
 		for (v = n; v < 99; v++)
 	{
 		_putchar(v/10 + '0');
+		_putchar(v%10 + '0');
 		_putchar(',');
 		_putchar(' ');
 	}
@@ -24,6 +25,7 @@ void print_to_98(int n)
 		for (v = n; v > 97; v--)
 		{
 		_putchar(v/10 + '0');
+		_putchar(v%10 + '0');
 		_putchar(',');
 		_putchar(' ');
 		}
