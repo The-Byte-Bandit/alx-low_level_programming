@@ -12,18 +12,18 @@ void print_to_98(int n)
 	
 	if (n < 99)
 	{
-		for (v = n; n < 99; n++)
+		for (v = n; v < 99; v++)
 	{
-		_putchar(n/10 + '0');
+		_putchar(v/10 + '0');
 		_putchar(',');
 		_putchar(' ');
 	}
 	}
 	else if (n > 97)
 	{
-		for (v = n; n > 97; n--)
+		for (v = n; v > 97; v--)
 		{
-		_putchar(n/10 + '0');
+		_putchar(v/10 + '0');
 		_putchar(',');
 		_putchar(' ');
 		}
