@@ -12,17 +12,16 @@
 	{
 		for (n; n <= 98; n++)
 		{
-      _putchar(n);
-
+			_putchar(n);
 			if (n == 98)
-				continue;
+			continue;
 			_putchar(',');
 		}
-    _putchar('\n');
+	_putchar('\n');
 	}
 	else
 	{
-		for (; n >= 98; n--)
+		for (n; n >= 98; n--)
 		{
 			_putchar(n);
 
