@@ -8,10 +8,11 @@
  */
 void print_to_98(int n)
 {
+	int v;
 	
 	if (n < 99)
 	{
-		for (n; n < 99; n++)
+		for (v = n; n < 99; n++)
 	{
 		_putchar(n/10 + '0');
 		_putchar(',');
@@ -20,7 +21,7 @@ void print_to_98(int n)
 	}
 	else if (n > 97)
 	{
-		for (n; n > 97; n--)
+		for (v = n; n > 97; n--)
 		{
 		_putchar(n/10 + '0');
 		_putchar(',');
