@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+  * print_numbers - a function that prints the numbers, from 0 to 9
+  *
+  * Return: Always return 0 on success
+  *
+  */
 void print_numbers(void)
 {
-	print_numbers();
+	char num;
 
-	return (0);
+	num = 48;
+	while (num < 58)
+	{
+		_putchar(num);
+		num++;
+	}
+	_putchar(10);
 }
