@@ -1,24 +1,21 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- * _isdigit - function that checks a digit
+ * _isdigit - checks whether a given input is a digit
  *
- * @c: return int type
+ * @c: a parameter
  *
- * Return: return 0 on success and 1 on fail
+ * @c: a parameter
+ *
+ * Return: 1 if c is a digit, 0 otherwise
  */
 
 int _isdigit(int c)
 {
-	int i = isdigit(c);
-
-	if (i > 0)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
 	else
-	{
 		return (0);
-	}
 }
