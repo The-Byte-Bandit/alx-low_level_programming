@@ -2,17 +2,17 @@
 
 /**
  *  _strlen -returns length of array.
- * @c: address of variable c
+ * @s: address of variable s
  *
  * Return: nothing
 */
 
 int _strlen(char *s)
 {
-	int i = 0;
+	int i;
 	int g = 0;
 
-	for (i; *s[i]!='\0'; ++i)
+	for (i = 0; s[i]!='\0'; ++i)
 	{
 	g++;
 	}
