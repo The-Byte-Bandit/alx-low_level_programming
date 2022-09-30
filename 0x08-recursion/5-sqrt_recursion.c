@@ -14,9 +14,7 @@ int squrecheck(int n, int i)
         return (-1);
     }
     else if (i * i == n)
-    {
         return (i);
-    }
     squrecheck(n, i - 1);
 }
 
