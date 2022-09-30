@@ -8,7 +8,7 @@
 
 int prime_check(int a, int b)
 {
-		if (b == a )
+		if (b == a)
 		{
 			return (1);
 		}
