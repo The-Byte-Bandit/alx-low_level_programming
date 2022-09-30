@@ -15,7 +15,8 @@ int squrecheck(int n, int i)
     }
     else if (i * i == n)
         return (i);
-    squrecheck(n, i - 1);
+    n = squrecheck(n, i - 1);
+    return (n);
 }
 
 int _sqrt_recursion(int n)
