@@ -18,12 +18,10 @@ int squrecheck(int n, int i)
         return (i);
     }
     squrecheck(n, i - 1);
-    
 }
 
 int _sqrt_recursion(int n)
 {
-    int i;
     if (n < 1)
     {
         return (-1);
