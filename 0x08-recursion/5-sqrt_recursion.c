@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ * squrecheck - a function that checks for square root.
+ * _sqrt_recursion - this function runs another function which checks for square root.
+ * @n: an input integer.
+ * @i: an input integer.
+ * Return: Natural square root.
+ */
+int squrecheck(int n, int i)
+{
+    if (i < 1)
+    {
+        return (-1);
+    }
+    else if (i * i == n)
+    {
+        return (i);
+    }
+    squrecheck(n, i - 1);
+    
+}
+
+int _sqrt_recursion(int n)
+{
+    int i;
+    if (n < 1)
+    {
+        return (-1);
+    }
+    n = squrecheck(n, n);
+    return (n);
+}
