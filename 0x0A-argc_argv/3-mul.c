@@ -17,7 +17,7 @@ if (argc < 2)
 	return (1);
 }
 else
-	for (count = 1; count < charc+1; count++)
+	for (count = 1; count < (charc + 1); count++)
 	{
 		sum *= argv[count];
 	}
