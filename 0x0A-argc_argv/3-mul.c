@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int count = 1;
+int count, sum = 1;
 
 if (argc < 2)
 {
@@ -17,8 +17,10 @@ if (argc < 2)
 	return (1);
 }
 else
-	count *= argv[1];
-	count *= argv[2];
-	printf("%d\n", count);
+	for (count = 1; count < charc+1; count++)
+	{
+		sum *= argv[count];
+	}
+	printf("%d\n", sum);
 	return (0);
 }
