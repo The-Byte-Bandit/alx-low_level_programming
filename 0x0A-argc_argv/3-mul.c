@@ -22,7 +22,7 @@ else
 	for (count = 1; count < (argc + 1); count++)
 	{
 		tmp = atoi(argv[count]);
-		sum *= tmp
+		sum *= tmp;
 	}
 	printf("%d\n", sum);
 	return (0);
