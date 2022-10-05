@@ -19,7 +19,6 @@ int main(int argc, char **argv)
 		return (1);
 	}
 	else
-	{
 		num *= atoi(argv[1]);
 		num *= atoi(argv[2]);
 		printf("%d\n", num);
