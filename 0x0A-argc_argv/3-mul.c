@@ -19,7 +19,7 @@ if (argc < 2)
 else
 	for (count = 1; count < (argc + 1); count++)
 	{
-		sum *= argv[count];
+		sum *= atoi(argv[count]);
 	}
 	printf("%d\n", sum);
 	return (0);
