@@ -13,10 +13,17 @@ int count;
 
 if (argc >= 1)
 {
+<<<<<<< HEAD
 		for (count = 0; count < argc; count++)
 		{
 		printf("%s\n", argv[count]);
 		}
+=======
+	for (count = 0; count < argc; count++)
+	{
+	printf("%s\n", argv[count]);
+	}
+>>>>>>> 4fe1bd181ee5c5a1283c77d024fbd06933ebfa6d
 }
 	return (0);
 }
