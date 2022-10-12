@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -10,7 +11,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	if(name[1])
+	if (sizeof(name[1]) == 1)
 	f(name);
 
 }
