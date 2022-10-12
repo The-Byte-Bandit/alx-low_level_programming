@@ -7,7 +7,7 @@
 *@array: array of integers
 *@size: size of array
 *@cmp: pointer to callback function.
-*Return: void
+*Return: int
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -23,7 +23,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		b = cmp(array[i]);
 		if (b > 0)
-		{
-			return (i);
-		}
+		return (i);
+	}
 }
