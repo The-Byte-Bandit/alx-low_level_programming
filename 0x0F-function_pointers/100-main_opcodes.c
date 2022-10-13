@@ -1,30 +1,33 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 /**
-* main - number of bytes
-*@argc: argument counter
-*@argv: argument vector
-*Return: 0
-**/
-
+ * main - printf byte per byte of main direction
+ * @argc: number of arguments
+ * @argv: arguments in the input
+ * Return: direction of main function
+ */
 int main(int argc, char *argv[])
 {
-	int byte;
+	int i, aux;
 
-	if (argc < 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
-		exit(1);
+		return (1);
 	}
-
-	byte = atoi(argv[1]);
-
-	if (byte < 0)
+	aux = atoi(argv[1]);
+	if (aux < 0)
 	{
 		printf("Error\n");
-		exit(2);
+		return (2);
 	}
-
+	for (i = 0; i < aux; i++)
+	{
+		printf("%02x", ((unsigned char *)main)[i]);
+		if (i != (aux - 1))
+			printf(" ");
+		else
+			printf("\n");
+	}
 	return (0);
 }
